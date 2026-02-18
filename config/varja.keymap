@@ -9,7 +9,7 @@
         default_layer {
             bindings = <
 &kp A      &kp SPACE  &kp LEFT_ARROW  &kp RIGHT_ARROW
-&kp LA(S)  &kp SPACE  &kp LARW        &kp RARW         &mo 1
+&kp LA(S)  &kp SPACE  &kp LEFT_ARROW  &kp RIGHT_ARROW  &mo 1
             >;
         };
 
