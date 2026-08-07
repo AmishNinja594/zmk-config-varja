@@ -25,8 +25,8 @@
         // Layer 1: Bluetooth & Connection Utility (Active ONLY while holding the top-right key)
         utility_layer {
             bindings = <
-                &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &trans       // Top Row: Select BT Profiles 1-4, Trans
-                &out OUT_BLE &out OUT_USB &bt BT_CLR   &bt BT_CLR_ALL            // Bottom Row: Force BLE, Force USB, Clear Active Profile, Clear All
+                &out OUT_BLE &out OUT_USB &bt BT_CLR   &bt BT_CLR_ALL &none          // Top Row: Force BLE, Force USB, Clear Active Profile, Clear All
+                &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3   &trans       // Bottom Row: Select BT Profiles 1-4, Trans                
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
