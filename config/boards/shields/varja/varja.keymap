@@ -18,9 +18,7 @@
                 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
             >;
 
-            sensor-bindings = <
-                &sensor_rotate &kp C_VOLUME_UP &kp C_VOLUME_DOWN
-            >;
+            sensor-bindings = <&sensor_rotate>;
         };
     };
 };
