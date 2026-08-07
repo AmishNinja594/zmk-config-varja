@@ -1,6 +1,6 @@
-if SHIELD_VARJA
+# Copyright (c) 2024 The ZMK Contributors
+#
+# SPDX-License-Identifier: MIT
 
-config ZMK_KEYBOARD_NAME
-default "varja"
-
-endif
+CONFIG_ZMK_KEYBOARD_NAME="varja"
+CONFIG_ZMK_ENCODER=y
