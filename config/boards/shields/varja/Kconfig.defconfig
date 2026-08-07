@@ -4,9 +4,6 @@
 if SHIELD_VARJA
 
 config ZMK_KEYBOARD_NAME
-    default "Varja"
-
-config ZMK_ENCODER
-    default y
+    default "varja"
 
 endif
