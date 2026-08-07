@@ -26,7 +26,7 @@
 
         row-gpios
             = <&gpio0 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // ROW1 -> P0.10
-            , <&gpio1 11  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // ROW2 -> P1.11
+            , <&gpio0 09  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // ROW2 -> P0.09
             ;
     };
 
