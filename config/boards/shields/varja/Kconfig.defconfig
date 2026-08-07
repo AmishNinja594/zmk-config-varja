@@ -1,6 +1,12 @@
 # Copyright (c) 2024 The ZMK Contributors
-#
 # SPDX-License-Identifier: MIT
 
-CONFIG_ZMK_KEYBOARD_NAME="varja"
-CONFIG_ZMK_ENCODER=y
+if SHIELD_VARJA
+
+config ZMK_KEYBOARD_NAME
+    default "Varja"
+
+config ZMK_ENCODER
+    default y
+
+endif
