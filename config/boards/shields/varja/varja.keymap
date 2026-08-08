@@ -16,10 +16,10 @@
         // Layer 0: Your standard 9-key layout
         default_layer {
             bindings = <
-                &bootloader &kp B &kp C &kp D &none    // Top Row: 4 Keys + blank space for rotary encoder
-                &kp E &kp F &kp G &kp H &kp I    // Bottom Row: 4 Keys + layer toggle
+                &bootloader &bootloader &bootloader &bootloader &none    // Top Row: 4 Keys + blank space for rotary encoder
+                &bootloader &bootloader &bootloader &bootloader &bootloader    // Bottom Row: 4 Keys + layer toggle
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>; // Rotary Encoder behavior
+            sensor-bindings = <&inc_dec_kp bootloader bootloader>; // Rotary Encoder behavior
         };
 
         // Layer 1: Bluetooth & Connection Utility (Active ONLY while holding the top-right key)
