@@ -17,7 +17,7 @@
         default_layer {
             bindings = <
                 &kp A &kp B &kp C &kp D &none    // Top Row: 4 Keys + blank space for rotary encoder
-                &kp E &kp F &kp G &kp H &mo 1    // Bottom Row: 4 Keys + layer toggle
+                &kp E &kp F &kp G &kp H &kp I    // Bottom Row: 4 Keys + layer toggle
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>; // Rotary Encoder behavior
         };
