@@ -16,8 +16,8 @@
         // Layer 0: Your standard 9-key layout
         default_layer {
             bindings = <
-                &kp N1 &kp N2 &kp N3 &kp N4 &none    // Top Row: 4 Keys + blank space for rotary encoder
-                &kp N5 &kp N6 &kp N7 &kp N8 &mo 1    // Bottom Row: 4 Keys + layer toggle
+                &kp a &kp b &kp c &kp d &none    // Top Row: 4 Keys + blank space for rotary encoder
+                &kp e &kp f &kp g &kp h N8 &kp i    // Bottom Row: 4 Keys + layer toggle
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>; // Rotary Encoder behavior
         };
