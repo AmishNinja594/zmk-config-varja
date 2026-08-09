@@ -19,7 +19,7 @@
                 &kp A &kp K &kp J &kp L &none    // Top Row: 4 Keys + blank space for rotary encoder
                 &kp B &kp K &kp LEFT &kp RIGHT &mo 1    // Bottom Row: 4 Keys + layer toggle
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>; // Rotary Encoder behavior
+            sensor-bindings = <&inc_dec_kp PERIOD COMMA>; // Rotary Encoder behavior
         };
 
         // Layer 1: Bluetooth & Connection Utility (Active ONLY while holding the bottom-right key)
@@ -28,7 +28,7 @@
                 &out OUT_BLE &out OUT_USB &bt BT_CLR   &bootloader &none          // Top Row: Force BLE, Force USB, Clear Active Profile, Bootloader Mode
                 &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3   &trans       // Bottom Row: Select BT Profiles 1-4, Trans                
             >;
-            sensor-bindings = <&inc_dec_kp PERIOD COMMA>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
